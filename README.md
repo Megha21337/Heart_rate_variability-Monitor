@@ -8,7 +8,6 @@ Python 3.x: For running the data processing and analysis scripts.
 Python Packages: requests, pandas, matplotlib, scipy, numpy. Install these via pip.
 
 #Setup
-![Screenshot 2024-07-26 215845](https://github.com/user-attachments/assets/423a0de6-a408-44d1-8442-d1f20d4b39d8)
 
 #NodeMCU Configuration
 Configure your microcontroller NodeMCU with MAX30102 sensor to send data to a specified URL. Ensure it sends data in the expected format.
