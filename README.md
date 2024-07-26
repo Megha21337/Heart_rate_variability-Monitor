@@ -1,2 +1,19 @@
-# Heart_rate_variability-Monitor
-Developing a precise and instantaneous HRV monitoring device, with the help of the MAX30102 sensor and the NodeMCU ESP8266 for WiFi-based transmission and data collection.
+#Data Retrieval and Analysis with NodeMCU and Python
+#Overview
+This project involves retrieving data over WiFi using NodeMCU, saving it to a file, and then processing and analyzing the data using Python. The data processing includes extracting specific values, detecting peaks, and calculating metrics like RMSSD (Root Mean Square of Successive Differences) and ln(RMSSD) which indicated using RR intervals.
+
+#Requirements
+NodeMCU (ESP8266/ESP32): For data retrieval over WiFi.
+Python 3.x: For running the data processing and analysis scripts.
+Python Packages: requests, pandas, matplotlib, scipy, numpy. Install these via pip.
+
+#Setup
+![Screenshot 2024-07-26 215845](https://github.com/user-attachments/assets/423a0de6-a408-44d1-8442-d1f20d4b39d8)
+
+#NodeMCU Configuration
+Configure your microcontroller NodeMCU with MAX30102 sensor to send data to a specified URL. Ensure it sends data in the expected format.
+
+#Python Environment
+Install the required packages
+pip install requests pandas matplotlib scipy numpy
+
